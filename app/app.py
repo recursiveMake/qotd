@@ -1,5 +1,9 @@
 from flask import Flask, render_template, request, redirect, url_for, session, flash
-import quote as q
+import sys
+sys.path.insert(0,"/var/www/html/qotd")
+
+from app import quote as q
+
 
 app = Flask(__name__)
 
