@@ -24,7 +24,12 @@ h1, h5 {
 	}
 }
 
+@media only screen and (min-width: 960px){
+	h5 {
+		font-size: 1.7em;
+	}
+}
+
 h5 {
-	font-size: 1.5em;
-	font-style: italic;
+	font-style: italic;	
 }
