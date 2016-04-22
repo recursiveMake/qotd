@@ -1,1 +1,1 @@
-from qotd.qotd import app as application
+from qotd.app import app as application

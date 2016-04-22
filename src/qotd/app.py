@@ -45,6 +45,7 @@ def add_db(author, insight):
     session.commit()
     return quote
 
+
 @app.teardown_appcontext
 def close_connection(exception):
     db = getattr(g, '_database', None)
