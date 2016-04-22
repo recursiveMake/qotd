@@ -8,7 +8,8 @@ setup(
     packages=['qotd'],
     description="Quote-of-the-day app",
     install_requires=[
-        'flask'
+        'flask',
+        'sqlalchemy'
     ],
     data_files=[
         ('/var/www/qotd', ['data/qotd.wsgi']),
